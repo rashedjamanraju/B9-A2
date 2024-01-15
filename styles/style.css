@@ -1,0 +1,194 @@
+/* BASIC CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    border: none;
+    outline: none;
+}
+img{
+    display: block;
+    width:100%;
+}
+/* body{
+
+} */
+
+/* COMMON CONTAINER CLASS */
+.container{
+    width: 81.25%;
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: background-color 1s ease;
+}
+
+/* COMMON SHARED STYLE */
+.description-primary{
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 14px 34px 13px 35px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+/* TEXT COLOR */
+.white-text{
+    color: #FFF;
+}
+
+.primary-text{
+    color: #FF5400;
+}
+
+/* COMMON h3 */
+.title-primary{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+/* NAVIGATION BAR SECTION STYLES */
+.navigation-bar{
+    padding-top: 52px;
+    padding-bottom: 49px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .navigation-bar-title .logo{
+    width:48.00024px;
+    height: 56.0076px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation .navigation-bar-title{
+    display: flex;
+    align-items: center;
+    gap: 16.63px;
+}
+
+.navigation h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    color:#424247;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navigation ul li .home{
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/* DESTINATION MENU SECTION STYLES */
+.destination-menu{
+    background: url('../Images/destination-menubg.png') center/cover no-repeat,
+                linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    padding-top: 106px;
+    padding-bottom: 106px;
+    border-radius: 16px;
+}
+.destination-menu-text{
+    max-width: 676px;
+    text-align: center;
+    margin-inline: auto;
+}
+.destination-menu-text .destination-menu-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.destination-menu-dropdown{
+    margin-top: 48px;
+    max-width: 800px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-inline: auto;
+}
+
+/* POPULAR TOURS STYLES */
+.popular{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.popular-text{
+    max-width: 576px;
+}
+.popular-text ul{
+    padding-left: 24px;
+    margin-block: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 525px;
+}
+.popular-text ul li{
+    list-style-type: disc;
+    list-style-position: outside;
+}
+.popular-text p,.popular-text li{
+    color: rgba(19, 19, 24, 0.70);
+}
+.popular-text p.top{
+    margin-top: 24px;
+}
+.popular-text p.bottom{
+    margin-bottom: 32px;
+    color: #5A5A5D;
+    max-width: 530px;
+}
+.popular-image{
+    max-width: 540px;
+    max-height: 550px;
+}
